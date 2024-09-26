@@ -1,8 +1,6 @@
 ### ChurnStatus
 `IF(... < DATE(2022, 6, 29), "Potential Churn Risk", "Active")`: The IF statement checks if the most recent purchase is before `DATE(2022, 6, 29)`. 
-If true, the customer is flagged as "Potential Churn Risk"; otherwise, they are flagged as "Active".
-
-DATE(2022, 12, 29): This is the cutoff date for checking whether the customer has made a purchase in the last 12 months.
+If true, the customer is flagged as "Potential Churn Risk"; otherwise, they are flagged as "Active". `DATE(2022, 6, 29)` is the cutoff date for checking whether the customer has made a purchase in the last 12 months.
 
 ### RetentionStatus
 This column checks whether the customer is retained based on their last purchase date. If the latest OrderDate
