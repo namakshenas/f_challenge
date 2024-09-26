@@ -1,0 +1,101 @@
+ProductID,ProductName,Category,SubCategory
+1,Product_1,Food,Snacks
+2,Product_2,Food,Snacks
+3,Product_3,Food,Beverages
+4,Product_4,Electronics,Laptops
+5,Product_5,Clothing,Shirts
+6,Product_6,Toys,Puzzles
+7,Product_7,Food,Frozen
+8,Product_8,Clothing,Pants
+9,Product_9,Electronics,Tablets
+10,Product_10,Electronics,Phones
+11,Product_11,Clothing,Pants
+12,Product_12,Electronics,Phones
+13,Product_13,Furniture,Chairs
+14,Product_14,Furniture,Beds
+15,Product_15,Toys,Action Figures
+16,Product_16,Electronics,Tablets
+17,Product_17,Food,Snacks
+18,Product_18,Toys,Puzzles
+19,Product_19,Clothing,Pants
+20,Product_20,Electronics,Phones
+21,Product_21,Toys,Action Figures
+22,Product_22,Electronics,Phones
+23,Product_23,Food,Beverages
+24,Product_24,Food,Snacks
+25,Product_25,Toys,Action Figures
+26,Product_26,Clothing,Shirts
+27,Product_27,Furniture,Beds
+28,Product_28,Electronics,Tablets
+29,Product_29,Clothing,Pants
+30,Product_30,Food,Frozen
+31,Product_31,Clothing,Shoes
+32,Product_32,Clothing,Pants
+33,Product_33,Furniture,Beds
+34,Product_34,Toys,Action Figures
+35,Product_35,Electronics,Phones
+36,Product_36,Clothing,Shirts
+37,Product_37,Furniture,Beds
+38,Product_38,Toys,Board Games
+39,Product_39,Toys,Board Games
+40,Product_40,Clothing,Shirts
+41,Product_41,Food,Frozen
+42,Product_42,Electronics,Phones
+43,Product_43,Furniture,Beds
+44,Product_44,Furniture,Beds
+45,Product_45,Furniture,Tables
+46,Product_46,Electronics,Tablets
+47,Product_47,Food,Snacks
+48,Product_48,Furniture,Beds
+49,Product_49,Furniture,Chairs
+50,Product_50,Toys,Board Games
+51,Product_51,Electronics,Phones
+52,Product_52,Toys,Board Games
+53,Product_53,Electronics,Phones
+54,Product_54,Toys,Puzzles
+55,Product_55,Furniture,Chairs
+56,Product_56,Furniture,Chairs
+57,Product_57,Food,Beverages
+58,Product_58,Clothing,Pants
+59,Product_59,Furniture,Tables
+60,Product_60,Food,Frozen
+61,Product_61,Clothing,Pants
+62,Product_62,Electronics,Phones
+63,Product_63,Furniture,Chairs
+64,Product_64,Electronics,Laptops
+65,Product_65,Clothing,Shirts
+66,Product_66,Electronics,Laptops
+67,Product_67,Furniture,Tables
+68,Product_68,Furniture,Tables
+69,Product_69,Toys,Puzzles
+70,Product_70,Toys,Action Figures
+71,Product_71,Furniture,Beds
+72,Product_72,Furniture,Chairs
+73,Product_73,Food,Snacks
+74,Product_74,Food,Snacks
+75,Product_75,Furniture,Chairs
+76,Product_76,Clothing,Shoes
+77,Product_77,Food,Beverages
+78,Product_78,Furniture,Beds
+79,Product_79,Electronics,Laptops
+80,Product_80,Toys,Puzzles
+81,Product_81,Clothing,Shirts
+82,Product_82,Clothing,Shirts
+83,Product_83,Toys,Action Figures
+84,Product_84,Toys,Puzzles
+85,Product_85,Furniture,Chairs
+86,Product_86,Food,Frozen
+87,Product_87,Clothing,Shirts
+88,Product_88,Electronics,Tablets
+89,Product_89,Clothing,Shoes
+90,Product_90,Electronics,Phones
+91,Product_91,Toys,Board Games
+92,Product_92,Furniture,Beds
+93,Product_93,Food,Snacks
+94,Product_94,Food,Snacks
+95,Product_95,Food,Frozen
+96,Product_96,Electronics,Phones
+97,Product_97,Food,Beverages
+98,Product_98,Food,Frozen
+99,Product_99,Electronics,Laptops
+100,Product_100,Furniture,Beds
