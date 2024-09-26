@@ -1,0 +1,14 @@
+EVALUATE
+
+VAR AverageCLVPerCustomerSegment = 
+ADDCOLUMNS(
+    SUMMARIZE(
+        Customers, 
+        Customers[CustomerSegment]
+    ),
+    "AverageCLV", 
+    CALCULATE(AVERAGE(Customers[CustomerLifetimeValue]))
+)
+
+RETURN
+AverageCLVPerCustomerSegment
