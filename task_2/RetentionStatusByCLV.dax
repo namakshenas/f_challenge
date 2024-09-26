@@ -1,0 +1,32 @@
+EVALUATE
+
+VAR RetentionStatusByCLV = 
+ADDCOLUMNS(
+    FILTER(
+        Customers,
+        Customers[CustomerLifetimeValue] >= 
+        CALCULATE(PERCENTILEX.INC(ALL(Customers), Customers[CustomerLifetimeValue], 0.90))
+    ),
+    "TotalDiscountGiven", 
+    CALCULATE(
+        SUMX(Orders, Orders[Discount] * Orders[QuantitySold]),
+        FILTER(Orders, Orders[CustomerID] = Customers[CustomerID])
+    ),
+    "TotalRevenueAfterDiscount", 
+    CALCULATE(
+        SUMX(Orders, Orders[TotalSales] - (Orders[Discount] * Orders[QuantitySold])),
+        FILTER(Orders, Orders[CustomerID] = Customers[CustomerID])
+    ),
+    "RetentionStatus",
+    IF(
+        CALCULATE(
+            MAX(Orders[OrderDate]),
+            FILTER(Orders, Orders[CustomerID] = Customers[CustomerID])
+        ) >= DATE(2022, 6, 29),
+        "Retained", 
+        "Not Retained"
+    )
+)
+
+RETURN
+RetentionStatusByCLV
