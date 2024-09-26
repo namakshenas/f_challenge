@@ -1,0 +1,18 @@
+EVALUATE
+
+VAR ChurnSatus = 
+ADDCOLUMNS(
+    Customers, 
+    "ChurnStatus", 
+    IF(
+        CALCULATE(
+            MAX(Orders[OrderDate]), 
+            FILTER(Orders, Orders[CustomerID] = Customers[CustomerID])
+        ) < DATE(2022, 6, 29), 
+        "Potential Churn Risk", 
+        "Active"
+    )
+)
+
+RETURN
+ChurnSatus
