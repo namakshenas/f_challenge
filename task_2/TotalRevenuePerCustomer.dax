@@ -1,0 +1,14 @@
+EVALUATE
+
+VAR TotalRevenuePerCustomer = 
+ADDCOLUMNS(
+    Customers, 
+    "TotalRevenuePerCustomer", 
+    CALCULATE(
+        SUMX(Orders, Orders[QuantitySold] * Orders[UnitPrice]),
+		FILTER(Orders, Orders[CustomerID] = Customers[CustomerID])
+	)
+)
+
+RETURN
+TotalRevenuePerCustomer
