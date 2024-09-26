@@ -1,3 +1,4 @@
+## Total Sales vs Total Cost 
 ```
 CustomerType|CustomerSegment|Region       |TotalSales        |TotalCost         |
 ------------+---------------+-------------+------------------+------------------+
