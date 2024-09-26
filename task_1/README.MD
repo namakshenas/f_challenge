@@ -1,3 +1,21 @@
+## Total Profit by Region and Segment 
+```
+CustomerType|Region       |TotalProfit       |
+------------+-------------+------------------+
+B2C         |Asia         |24213.807099999998|
+B2B         |Asia         |        20709.8899|
+B2C         |Asia         |18526.680800000002|
+B2C         |South America|         12017.241|
+B2C         |North America|        11831.1961|
+B2B         |North America|11423.508899999999|
+B2B         |Europe       |        10490.2218|
+B2C         |Europe       | 9239.170499999998|
+B2C         |South America| 9214.358100000001|
+B2C         |Europe       | 8050.294199999999|
+B2C         |North America|7729.3483000000015|
+B2B         |South America| 7687.216400000001|
+```
+
 ## Total Sales vs Total Cost 
 ```
 CustomerType|CustomerSegment|Region       |TotalSales        |TotalCost         |
