@@ -2,7 +2,8 @@
 In this task, I've been asked to Create a Power BI dashboard  that provides insights into the following: 
 - **Regional Profitability**: Visualize profitability across different regions, including which  regions have the highest and lowest profit margins. 
 - **Customer Segmentation**: Visualize customer segments by profitability, CLV, and risk of  churn. 
-- **Discount Effectiveness**: Analyze the impact of discounts on profitability. Show whether  discounted sales are leading to higher profits or just increasing volume at lower margins. • Price Sensitivity Analysis: Identify which product categories or regions are most price sensitive (i.e., where lower prices significantly increase sales).
+- **Discount Effectiveness**: Analyze the impact of discounts on profitability. Show whether  discounted sales are leading to higher profits or just increasing volume at lower margins.
+- **Price Sensitivity Analysis**: Identify which product categories or regions are most price sensitive (i.e., where lower prices significantly increase sales).
 
 #### Bonus tasks:
 - Implement drill-down capabilities in the dashboard (e.g., from Region to Country to City). 
