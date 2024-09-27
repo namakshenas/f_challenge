@@ -1,5 +1,5 @@
 ## ER Diagram
-![Alt text](https://github.com/namakshenas/finquest_challenge/blob/main/task_1/ER_diagram.png)
+![Alt text](https://github.com/namakshenas/f_challenge/blob/main/task_1/ER_diagram.png)
 
 ## Total Profit by Region and Segment 
 ```
