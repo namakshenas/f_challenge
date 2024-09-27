@@ -18,32 +18,32 @@ Individual     |South America|     7687.0|
 
 ## Average Profit per Order 
 ```
-CustomerType|CustomerSegment|Region       |AverageProfitPerOrder|
-------------+---------------+-------------+---------------------+
-B2B         |SMB            |North America|   203.43805517241378|
-B2C         |Individual     |Asia         |    203.1190068965517|
-B2B         |Individual     |North America|    196.7371380952381|
-B2C         |Enterprise     |Europe       |   183.73357428571427|
-B2B         |SMB            |Europe       |    180.4160361111111|
-B2C         |Enterprise     |South America|   180.16503636363635|
-B2B         |Enterprise     |North America|   176.88474333333335|
-B2C         |Individual     |Europe       |    164.1306452380952|
-B2C         |Enterprise     |North America|    159.1378975609756|
-B2B         |Enterprise     |South America|             157.3069|
-B2C         |SMB            |South America|   156.38289347826088|
-B2C         |SMB            |Europe       |   153.66324999999998|
-B2B         |Enterprise     |Asia         |   153.51104833333332|
-B2C         |Individual     |South America|   149.37019259259262|
-B2B         |Individual     |Asia         |   146.64735652173914|
-B2C         |SMB            |North America|   145.36329736842106|
-B2C         |Enterprise     |Asia         |   140.21630093457944|
-B2C         |SMB            |Asia         |   136.07121975308638|
-B2B         |SMB            |Asia         |          134.5572375|
-B2B         |SMB            |South America|   106.35500000000002|
-B2B         |Individual     |Europe       |   101.98623478260869|
-B2B         |Individual     |South America|    98.76273513513516|
-B2C         |Individual     |North America|    94.68074736842108|
-B2B         |Enterprise     |Europe       |     89.9788388888889|
+Region       |CustomerType|CustomerSegment|AverageProfitPerOrder|
+-------------+------------+---------------+---------------------+
+Asia         |B2B         |Enterprise     |                153.0|
+Asia         |B2B         |Individual     |                146.0|
+Asia         |B2B         |SMB            |                134.0|
+Asia         |B2C         |Enterprise     |                140.0|
+Asia         |B2C         |Individual     |                203.0|
+Asia         |B2C         |SMB            |                136.0|
+Europe       |B2B         |Enterprise     |                 89.0|
+Europe       |B2B         |Individual     |                101.0|
+Europe       |B2B         |SMB            |                180.0|
+Europe       |B2C         |Enterprise     |                183.0|
+Europe       |B2C         |Individual     |                164.0|
+Europe       |B2C         |SMB            |                153.0|
+North America|B2B         |Enterprise     |                176.0|
+North America|B2B         |Individual     |                196.0|
+North America|B2B         |SMB            |                203.0|
+North America|B2C         |Enterprise     |                159.0|
+North America|B2C         |Individual     |                 94.0|
+North America|B2C         |SMB            |                145.0|
+South America|B2B         |Enterprise     |                157.0|
+South America|B2B         |Individual     |                 98.0|
+South America|B2B         |SMB            |                106.0|
+South America|B2C         |Enterprise     |                180.0|
+South America|B2C         |Individual     |                149.0|
+South America|B2C         |SMB            |                156.0|
 ```
 
 
