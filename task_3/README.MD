@@ -14,4 +14,4 @@ In this task, I've been asked to Create a Power BI dashboard  that provides insi
 
 
 
-![Alt text](https://github.com/namakshenas/f_challenge/blob/main/task_3/powerbi_finquest_challenge.png)
+![Alt text](https://github.com/namakshenas/f_challenge/blob/main/task_3/powerbi_f_challenge.png)
