@@ -1,9 +1,9 @@
-SELECT 
+SELECT
+	O.Region,
+	C.CustomerSegment,
     C.CustomerType,
-    C.CustomerSegment,
-    O.Region,
-    SUM(O.TotalSales) AS TotalSales,
-    SUM(O.TotalCost) AS TotalCost
+    FLOOR(SUM(O.TotalSales)) AS TotalSales,
+    FLOOR(SUM(O.TotalCost)) AS TotalCost
 FROM 
     Orders O
 JOIN 
@@ -13,4 +13,4 @@ GROUP BY
     C.CustomerSegment,
     O.Region
 ORDER BY
-    TotalSales DESC;
+    O.Region ASC;
