@@ -9,5 +9,9 @@ In this task, I've been asked to Create a Power BI dashboard  that provides insi
 - Implement drill-down capabilities in the dashboard (e.g., from Region to Country to City). 
 - Include KPIs such as "Top 10 Most Profitable Customers" and "Top 5 Underperforming  Products." 
 
+### To be discussed:
+> The analysis highlights the need for a targeted approach to pricing and discounting strategies across different regions and customer segments. Optimizing discount levels, refining pricing strategies in price-sensitive regions, and focusing on high-value customer retention will drive profitability while minimizing the risk of margin erosion.
+
+
 
 ![Alt text](https://github.com/namakshenas/finquest_challenge/blob/main/task_3/powerbi_finquest_challenge.png)
