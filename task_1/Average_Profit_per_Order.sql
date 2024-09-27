@@ -1,8 +1,8 @@
-SELECT 
+SELECT
+	O.Region,
     C.CustomerType,
     C.CustomerSegment,
-    O.Region,
-    AVG(O.Profit) AS AverageProfitPerOrder
+    FLOOR(AVG(O.Profit)) AS AverageProfitPerOrder
 FROM 
     Orders O
 JOIN 
@@ -12,4 +12,4 @@ GROUP BY
     C.CustomerSegment,
     O.Region
 ORDER BY
-    AverageProfitPerOrder DESC;
+    O.Region ASC;
