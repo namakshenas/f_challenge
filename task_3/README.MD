@@ -10,4 +10,4 @@ In this task, I've been asked to Create a Power BI dashboard  that provides insi
 - Include KPIs such as "Top 10 Most Profitable Customers" and "Top 5 Underperforming  Products." 
 
 
-![Alt text](https://github.com/namakshenas/finquest_challenge/blob/main/task_3/powerbi_finquest_challenge.jpg)
+![Alt text](https://github.com/namakshenas/finquest_challenge/blob/main/task_3/powerbi_finquest_challenge.png)
