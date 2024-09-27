@@ -17,4 +17,4 @@ This is done using `PERCENTILEX.INC` to calculate the 90th percentile of CLV.
 In summary, this line filters the dataset to only include high-value customers.
 
 ### Bonus tasks
-The bonus tasks are analyzed in the `task_3` part.
+The bonus tasks will be analyzed in the `task_3` part.
