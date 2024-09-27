@@ -1,7 +1,7 @@
 SELECT 
-    C.CustomerType,
+    C.CustomerSegment,
     O.Region,
-    SUM(O.Profit) AS TotalProfit
+    FLOOR(SUM(O.Profit)) AS TotalProfit
 FROM 
     Orders O
 JOIN 
