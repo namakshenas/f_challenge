@@ -9,7 +9,7 @@ In this task, I've been asked to Create a Power BI dashboard  that provides insi
 - Implement drill-down capabilities in the dashboard (e.g., from Region to Country to City). 
 - Include KPIs such as "Top 10 Most Profitable Customers" and "Top 5 Underperforming  Products." 
 
-### Summary
+#### What can this dashboard do? (to be discussed...)
 > The dashboard highlights the need for a targeted approach to pricing and discounting strategies across different regions and customer segments. Optimizing discount levels, refining pricing strategies in price-sensitive regions, and focusing on high-value customer retention will probably drive profitability while minimizing the risk of margin erosion.
 
 
