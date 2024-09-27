@@ -1,3 +1,7 @@
+### Data Model
+
+![Alt text](https://github.com/namakshenas/finquest_challenge/blob/main/task_3/powerbi_finquest_challenge.jpg)
+
 ### AverageCLVPerCustomerSegment
 Please note that `SUMMARIZE(Customers, Customers[CustomerSegment])` groups the data by the `CustomerSegment`.
 
