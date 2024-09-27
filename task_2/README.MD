@@ -1,6 +1,6 @@
 ### Data Model
 
-![Alt text](https://github.com/namakshenas/finquest_challenge/blob/main/task_2/data_model.png)
+![Alt text](https://github.com/namakshenas/f_challenge/blob/main/task_2/data_model.png)
 
 ### AverageCLVPerCustomerSegment
 Please note that `SUMMARIZE(Customers, Customers[CustomerSegment])` groups the data by the `CustomerSegment`.
